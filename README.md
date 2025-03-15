@@ -3,6 +3,12 @@
 This repository is the official implementation of the ICLR 2025 "CrossMPT: Cross-attention message-passing transformer for error correcting codes"
 
 # [Paper]([https://arxiv.org/abs/2308.08128](https://openreview.net/forum?id=gFvRRCnQvX))
+<p align="center"><img src="https://github.com/user-attachments/assets/7311e9e4-ff7e-4c3d-9ffd-de359e825214" width="400"/>
+
+# Experimental Results
+<p align="center"><img src="https://github.com/user-attachments/assets/011f01df-7d15-4d44-a277-184a416a02c1" width="600"/>
+  
+BER performances of non-systematic mask (NSM) ECCT, systematic mask (SM) ECCT, multiple-masks (MM) ECCT with $$m=2$$ and MM ECCT with complementary double-masks (CDM). (a) (31,16) BCH code and (b) (63,30) BCH code for $$N=6$$ and $$d=128$$.
 
 # Installation
 * Pytorch
