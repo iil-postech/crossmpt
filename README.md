@@ -6,9 +6,9 @@ This repository is the official implementation of the ICLR 2025 "CrossMPT: Cross
 <p align="center"><img src="https://github.com/user-attachments/assets/9623e0e2-eebd-4479-a28f-fc1308d76c65" width="900"/>
 
 # Experimental Results
-<p align="center"><img src="https://github.com/user-attachments/assets/a658c814-cb91-4a2d-a581-b4e6f02ad2ea" width="900"/>
+<p align="center"><img src="https://github.com/user-attachments/assets/db1dbe19-c09f-43dd-a28b-c12395e6a29f" width="900"/>
 
-BER performance of various decoders (BP, Hyp BP, AR BP, ECCT) and CrossMPT for $$N=6$$ and $$d=128$$ (left). Performance comparison between BP decoder (iteration 20, 50, and 100) and CrossMPT for $$N=10$$ and $$d=128$$ (right).
+(a) BER performance of various decoders (BP, Hyp BP, AR BP, ECCT) and CrossMPT for (31,16) BCH code ($$N=6$$ and $$d=128$$). (b) Performance comparison between BP decoder (iteration 20, 50, and 100) and CrossMPT for (648,540) WiMAX LDPC code ($$N=10$$ and $$d=128$$).
 
 
 # Installation
