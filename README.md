@@ -19,7 +19,7 @@ This repository is the official implementation of the ICLR 2025 "CrossMPT: Cross
 Codes for training CrossMPT on GPU 0, 6 decoder layers, dimension 128 on LDPC codes (121,60)
 
 ```python
-python Main.py --gpu=0 --N_dec=6 --d_model=128 --code_type=LDPC --code_n=121--code_k=60
+python Main_CrossMPT.py --gpu=0 --N_dec=6 --d_model=128 --code_type=LDPC --code_n=121--code_k=60
 ```
 
 # Code arguments
