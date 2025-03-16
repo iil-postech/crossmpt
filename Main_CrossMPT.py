@@ -16,7 +16,7 @@ import logging
 from Codes import *
 import time
 from torch.optim.lr_scheduler import CosineAnnealingLR
-from Model_BP import ECC_Transformer
+from Model_CrossMPT import ECC_Transformer
 import torch.multiprocessing
 
 torch.multiprocessing.set_sharing_strategy('file_system')
