@@ -8,7 +8,7 @@ This repository is the official implementation of "CrossMPT: Cross-attention mes
 # Experimental Results
 <p align="center"><img src="https://github.com/user-attachments/assets/db1dbe19-c09f-43dd-a28b-c12395e6a29f" width="900"/>
 
-(a) BER performance of various decoders (BP, Hyp BP, AR BP, ECCT) and CrossMPT for (31,16) BCH code ($$N=6$$ and $$d=128$$). (b) BER performance of BP decoder (iteration 20, 50, and 100) and CrossMPT for (648,540) WiMAX LDPC code ($$N=10$$ and $$d=128$$).
+(a) BER performance of various decoders (BP, Hyp BP, AR BP, ECCT) and CrossMPT for (31, 16) BCH code ($$N=6$$ and $$d=128$$). (b) BER performance of BP decoder (iteration 20, 50, and 100) and CrossMPT for (648, 540) WiMAX LDPC code ($$N=10$$ and $$d=128$$).
 
 
 # Installation
@@ -16,7 +16,7 @@ This repository is the official implementation of "CrossMPT: Cross-attention mes
 
 # Running the code
 
-Codes for training CrossMPT on GPU 0, 6 decoder layers, dimension 128 on LDPC codes (121,60)
+Codes for training CrossMPT on GPU 0, 6 decoder layers, dimension 128 on (121, 60) LDPC code 
 
 ```python
 python Main_CrossMPT.py --gpu=0 --N_dec=6 --d_model=128 --code_type=LDPC --code_n=121--code_k=60
