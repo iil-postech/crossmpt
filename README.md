@@ -1,4 +1,4 @@
-# CrossMPT: Cross-attention message-passing transformer for error correcting codes
+# CrossMPT: Cross-Attention Message-Passing Transformer for Error Correcting Codes
 
 This repository is the official implementation of the ICLR 2025 "CrossMPT: Cross-attention message-passing transformer for error correcting codes"
 
