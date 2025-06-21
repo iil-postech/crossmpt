@@ -2,7 +2,9 @@
 
 This repository provides the official implementation of "CrossMPT: Cross-attention message-passing transformer for error correcting codes" (ICLR 2025). 
 
-# [Paper]([https://arxiv.org/abs/2308.08128](https://openreview.net/forum?id=gFvRRCnQvX))
+Paper link: https://openreview.net/forum?id=gFvRRCnQvX
+
+# Proposed Architecture of CrossMPT 
 <p align="center"><img src="https://github.com/user-attachments/assets/9623e0e2-eebd-4479-a28f-fc1308d76c65" width="900"/>
 
 # Experimental Results
