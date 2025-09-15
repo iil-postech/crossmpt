@@ -28,7 +28,7 @@ python Main_CrossMPT.py --gpu=0 --N_dec=6 --d_model=128 --code_type=LDPC --code_
 ```
 --epochs                   number of epoch
 --batch_size               batch size
---code_type                code type, 'BCH' or 'POLAR'
+--code_type                code type
 --code_k                   codeword dimension k
 --code_n                   codeword length n
 --N_dec                    number of decoder layers N
