@@ -230,11 +230,11 @@ if __name__ == '__main__':
     code.pc_matrix = torch.from_numpy(H).long()
     args.code = code
     ####################################################################
-    model_dir = os.path.join('Results_ECCT',
+    model_dir = os.path.join('Results_CrossMPT',
                              args.code_type + '__Code_n_' + str(
                                  args.code_n) + '_k_' + str(
                                  args.code_k) + '__' + datetime.now().strftime(
-                                 "%d_%m_%Y_%H_%M_%S_BP"))
+                                 "%d_%m_%Y_%H_%M_%S"))
     os.makedirs(model_dir, exist_ok=True)
     args.path = model_dir
     handlers = [
