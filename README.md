@@ -18,10 +18,11 @@ Paper link: https://openreview.net/forum?id=gFvRRCnQvX
 
 # Running the code
 
-Codes for training CrossMPT on GPU 0, 6 decoder layers, dimension 128 on (121, 60) LDPC code 
+Codes for training CrossMPT on GPU 0, 6 decoder layers, dimension 128 on (121, 60) LDPC code and (31,16) BCH code
 
 ```python
 python Main_CrossMPT.py --gpu=0 --N_dec=6 --d_model=128 --code_type=LDPC --code_n=121--code_k=60
+python Main_CrossMPT.py --gpu=0 --N_dec=6 --d_model=128 --code_type=BCH --code_n=31--code_k=16 --standardize
 ```
 
 # Code arguments
