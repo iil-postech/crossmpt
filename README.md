@@ -13,7 +13,7 @@ Paper link: https://openreview.net/forum?id=gFvRRCnQvX
 (a) BER performance of various decoders (BP, Hyp BP, AR BP, ECCT) and CrossMPT for (31, 16) BCH code ($$N=6$$ and $$d=128$$). (b) BER performance of BP decoder (iteration 20, 50, and 100) and CrossMPT for (648, 540) WiMAX LDPC code ($$N=10$$ and $$d=128$$).
 
 
-# Installation
+# Installationhttps://github.com/iil-postech/crossmpt/blob/main/README.md
 * Pytorch
 
 # Running the code
@@ -40,7 +40,7 @@ python Main_CrossMPT.py --gpu=0 --N_dec=6 --d_model=128 --code_type=BCH --code_n
 
 ```
 @inproceedings{
-Park2025crossmpt,
+Park2025Crossmpt,
 title={Cross{MPT}: Cross-attention Message-passing Transformer for Error Correcting Codes},
 author={Seong-Joon Park and Hee-Youl Kwak and Sang-Hyo Kim and Yongjune Kim and Jong-Seon No},
 booktitle={The Thirteenth International Conference on Learning Representations},
