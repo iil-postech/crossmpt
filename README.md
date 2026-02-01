@@ -13,7 +13,7 @@ Paper link: https://openreview.net/forum?id=gFvRRCnQvX
 (a) BER performance of various decoders (BP, Hyp BP, AR BP, ECCT) and CrossMPT for (31, 16) BCH code ($$N=6$$ and $$d=128$$). (b) BER performance of BP decoder (iteration 20, 50, and 100) and CrossMPT for (648, 540) WiMAX LDPC code ($$N=10$$ and $$d=128$$).
 
 
-# Installationhttps://github.com/iil-postech/crossmpt/blob/main/README.md
+# Installation
 * Pytorch
 
 # Running the code
